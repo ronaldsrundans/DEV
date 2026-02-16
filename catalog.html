@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask and SQLite </title>
+    </head>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+    <body>
+        <table style="width:100%">
+            <tr>
+              <th>ID</th>
+              <th>Nosaukums</th>
+              <th>Apraksts</th>
+              <th>Atbildīgā struktūrvienība</th>
+              <th>Izveides datums</th>
+              <th>Saite (URL) uz dokumentu</th>
+              <th>Faila tips</th>
+              <th>Aptuvenais lasīšanas laiks</th>
+              <th>Svarīguma līmenis</th>
+              <th>Kategorija</th>
+            </tr>
+            {%for product in data%}
+               <tr>
+                 <td>{{pproduct['id']}}</td>
+                 <td>{{product['nosaukums']}}</td>
+                 <td>{{product['apraksts']}}</td>
+                 <td>{{product['atbstr']}}</td>
+                 <td>{{product['datums']}}</td>
+                 <td>{{product['saite']}}</td>
+                 <td>{{product['fails']}}</td>
+                 <td>{{product['lasisana']}}</td>
+                 <td>{{product['svarigums']}}</td>
+                 <td>{{product['kategorija']}}</td>
+                 <td>{{product['aktivs']}}</td>
+                </tr>
+            {%endfor%}
+          </table>          
+    </body>
+</html>
+
+

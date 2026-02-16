@@ -1,0 +1,50 @@
+<catalog>
+    <dokuments id="101">
+        <nosaukums>Dokuments 101</nosaukums>
+        <apraksts>Apraksts Dokumentam 101</apraksts>
+        <atbstr>Mamma</atbstr>
+        <datums>2026.02.01</datums>
+        <saite>ej.uz.saite1</saite>
+        <fails>fails1.txt</fails>
+        <lasisana>1h</lasisana>
+        <svarigums>zems</svarigums>
+        <kategorija>publisks</kategorija>
+        <aktivs>ja</aktivs>
+    </dokuments>
+    <dokuments id="102">
+        <nosaukums>Dokuments 102</nosaukums>
+        <apraksts>Apraksts Dokumentam 102</apraksts>
+        <atbstr>Papa</atbstr>
+        <datums>2026.02.02</datums>
+        <saite>ej.uz.saite2</saite>
+        <fails>fails2.txt</fails>
+        <lasisana>2h</lasisana>
+        <svarigums>videjs</svarigums>
+        <kategorija>publisks</kategorija>
+        <aktivs>ne</aktivs>
+    </dokuments>
+    <dokuments id="103">
+        <nosaukums>Dokuments 103</nosaukums>
+        <apraksts>Apraksts Dokumentam 103</apraksts>
+        <atbstr>Haha</atbstr>
+        <datums>2026.02.03</datums>
+        <saite>ej.uz.saite3</saite>
+        <fails>fails3.txt</fails>
+        <lasisana>3h</lasisana>
+        <svarigums>augsts</svarigums>
+        <kategorija>publisks</kategorija>
+        <aktivs>ja</aktivs>
+    </dokuments>
+    <dokuments id="104">
+        <nosaukums>Dokuments 104</nosaukums>
+        <apraksts>Apraksts Dokumentam 104</apraksts>
+        <atbstr>Gaga</atbstr>
+        <datums>2026.02.04</datums>
+        <saite>ej.uz.saite4</saite>
+        <fails>fails.txt</fails>
+        <lasisana>4h</lasisana>
+        <svarigums>kritisks</svarigums>
+        <kategorija>publisks</kategorija>
+        <aktivs>ne</aktivs>
+    </dokuments>
+</catalog>
