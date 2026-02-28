@@ -47,7 +47,8 @@ for product in products:
     print(f"  Svarīguma līmenis: {product['svarigums']}")
     print(f"  Kategorija: {product['kategorija']}")
     print(f"  Aktīvs statuss: {product['aktivs']}")
-    cursor.execute("INSERT INTO CATALOG VALUES ('"+product['id']+"', '"+product['nosaukums']+"', '"+product['apraksts']+"', '"+product['atbstr']+"', '"+product['datums']+"', '"+product['saite']+"', '"+product['fails']+"', '"+product['lasisana']+"', '"+product['svarigums']+"', '"+product['kategorija']+"', '"+product['aktivs']+"')")
+
+    cursor.execute("INSERT INTO CATALOG (id, nosaukums, apraksts, atbstr, datums, saite, fails,lasisana, svarigums, kategorija, aktivs) VALUES (?,?,?,?,?,?,?,?,?,?,?)", (product['id'], product['nosaukums'], product['apraksts'], product['atbstr'], product['datums'], product['saite'], product['fails'], product['lasisana'], product['svarigums'], product['kategorija'], product['aktivs']))
 
 
 
